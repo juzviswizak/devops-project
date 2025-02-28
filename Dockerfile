@@ -4,7 +4,7 @@ FROM nginx:alpine
 RUN rm -rf /usr/share/nginx/html/*
 
 # Copy static files from a remote URL
-COPY index.html .  /usr/share/nginx/html/      #the source code is avil from git repo its
+COPY carvilla-v1.0 .  /usr/share/nginx/html/      #the source code is avil from git repo its
                                                                                         #scm also in my git repo it’s the path .
 EXPOSE 80
 
