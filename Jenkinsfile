@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 //   Ur branch URL generate from pipeline Syntax 
-                git branch: 'main', url: 'https://github.com/dpraveenpaw/major-project.git'
+                git branch: 'main', url: 'https://github.com/juzviswizak/devops-project.git'
                 checkout scm
             }
         }
